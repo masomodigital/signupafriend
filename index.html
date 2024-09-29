@@ -76,7 +76,7 @@
 
     <img src="https://i.imgur.com/mwpTHJj.png" alt="Agent Icon" width="100" height="100">
 
-    <h1>Sign Up A User & Earn NOW!</h1>
+    <h1>Sign Up A User & Earn!</h1>
     <h3>Enter Your <strong>Name</strong> & <strong>Password</strong>.</h3>
 
     <form name="myForm" onsubmit="return validateForm()">
@@ -85,6 +85,10 @@
         <input type="submit" value="Submit" />
         <button type="button" id="copyPasswordBtn" onclick="copyPassword()">Copy Login Password</button>
     </form>
+
+    <br><br> <!-- Added space to ensure marquee is one line below the buttons -->
+
+    <marquee direction="scroll">You will be redirected to pay on behalf of the client. Any question? Call 0715399449 for assistance. Thank You!</marquee>
 
     <script>
         function validateForm() {
@@ -114,7 +118,5 @@
             alert("Password 'cbcagent' has been copied to the clipboard!");
         }
     </script>
-
-    <marquee direction="scroll">You will be redirected to pay on behalf of the client. Any question? Call 0715399449 for assistance. Thank You!</marquee>
 </body>
 </html>
